@@ -1,0 +1,41 @@
+// Required
+@import "bootstrap/scss/functions";
+
+// Default variable overrides
+$primary: #D20F06;
+$component-active-bg: blue;
+$input-group-addon-bg: #D20F06;
+$navbar-brand-font-size: 1rem;
+$dark: #ccc;
+$btn-font-weight: 700;
+
+// Required
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/maps";
+
+// Optional Bootstrap components here
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/utilities/api";
+@import "bootstrap/scss/forms";
+// etc
+
+#obrien-background {
+  color: white;
+  background: rgba(0, 0, 0, .65) url(https://www.tomobriengreenwood.com/static/dealer-15554/bgIntro.jpg?width=770) repeat-y;
+  background-blend-mode: darken;
+}
+
+#search-mic {
+  background: $body-bg;
+  border-left: none;
+}
